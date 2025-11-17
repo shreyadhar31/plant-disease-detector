@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fall-leaf {
+  0% { transform: translateY(-150px) rotate(0deg); opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { transform: translateY(calc(100vh + 150px)) rotate(720deg); opacity: 0; }
+}
+
+.animate-fall-leaf {
+  animation: fall-leaf linear infinite;
+}
