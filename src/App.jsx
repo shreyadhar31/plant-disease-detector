@@ -47,29 +47,7 @@ export default function App() {
         background: "linear-gradient(135deg, #ecfdf5 0%, #d1fae5 30%, #a7f3d0 60%, #6ee7b7 100%)",
       }}
     >
-      {/* Gentle animated leaf overlay */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-20 right-20 text-emerald-600 text-9xl animate-pulse"></div>
-        <div className="absolute bottom-32 left-16 text-teal-600 text-8xl animate-pulse delay-1000"></div>
-      </div>
-
-      {/* Falling leaves */}
-      <div className="absolute inset-0 pointer-events-none">
-        {[...Array(14)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute text-5xl animate-fall-leaf"
-            style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${i * 1.5}s`,
-              animationDuration: `${18 + Math.random() * 8}s`,
-            }}
-          >
-            {["🍃", "☘️", "🍀", "🌿"][i % 4]}
-          </div>
-        ))}
-      </div>
-
+     
       <div className="relative z-10 text-center px-6 max-w-5xl">
   {/* Logo + App Name at the top (small & elegant) */}
   <div className="flex items-center justify-center gap-4 mb-8">
