@@ -49,24 +49,8 @@ export default function App() {
     >
      
       <div className="relative z-10 text-center px-6 max-w-5xl">
-  {/* Logo + App Name at the top (small & elegant) */}
-  <div className="flex items-center justify-center gap-4 mb-8">
-    <svg width="80" height="80" viewBox="0 0 100 100" className="drop-shadow-lg">
-      <circle cx="70" cy="30" r="18" fill="#10b981" opacity="0.9"/>
-      <circle cx="74" cy="26" r="8" fill="white"/>
-      <path d="M65 35 L85 55 L78 62 L58 42 Z" fill="#10b981"/>
-      <path d="M50 20 C30 20, 10 40, 10 70 C10 90, 30 95, 50 95 C70 95, 90 85, 90 65 C85 45, 70 20, 50 20 Z" 
-            fill="#10b981" stroke="#059669" strokeWidth="4"/>
-      <path d="M50 10 C65 25, 80 50, 70 70 C60 90, 40 95, 30 80 C15 65, 25 35, 50 10 Z" 
-            fill="#34d399"/>
-    </svg>
-    <div className="text-left">
-      <h3 className="text-2xl md:text-3xl font-black text-emerald-900 leading-none">PlantCare</h3>
-      <p className="text-emerald-600 text-sm font-semibold tracking-wider">Disease Detection AI</p>
-    </div>
-  </div>
-
-  {/* Your original huge beautiful title stays below */}
+  
+      {/* Your original huge beautiful title stays below */}
   <h1 className="text-7xl md:text-9xl font-black text-emerald-900 drop-shadow-2xl mb-2">
    🪴Plant Disease Detection🪴
   </h1>
