@@ -29,7 +29,7 @@ export default function App() {
     if (!image) return;
     setLoading(true);
     setTimeout(() => {
-      setResult({ label: "Apple Cedar apple rust", confidence: 0.97 });
+      setResult({ label: "Black spot", confidence: 0.80});
       setLoading(false);
     }, 3000);
   };
